@@ -15,7 +15,8 @@ export default function App() {
            placeholder="Username / email" />
         <TextInput
           style={styles.TextInputStyle}
-          placeholder="Password" />
+          placeholder="Password" 
+          secureTextEntry={true}/>
         <TouchableOpacity onPress={() => console.log("Forgot password was pressed")}>
           <Text style={styles.linkStyle}>Forgot your password?</Text>
         </TouchableOpacity>
